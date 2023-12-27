@@ -1,11 +1,11 @@
 
-var add = function(number1, number2) {
-    var result = number1 * number2;
+const add = function(number1, number2) {
+    const result = number1 * number2;
     return result;
 };
-var num1 = 100;
-var num2 = 20;
-var multiplicationResult = add(num1, num2);
+const num1 = 100;
+const num2 = 20;
+const multiplicationResult = add(num1, num2);
 console.log("Resultado:", multiplicationResult);
 
 function saludar(nombre) {
