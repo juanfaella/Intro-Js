@@ -16,7 +16,7 @@ saludar(nameIngerese);
 
 
 const multiplicar = function(num1, num2) {
-    var resultado = num1 * num2;
+    const resultado = num1 * num2;
     return resultado;
 };
 
@@ -28,7 +28,7 @@ console.log("Resultado 2:", resultado2);
 
 
 function area(base, altura) {
-    var resultado = (base * altura) / 2;
+    const resultado = (base * altura) / 2;
     return resultado;
 }
 const baseTriangulo = 8;
@@ -38,7 +38,7 @@ const areaTriangulo = area(baseTriangulo, alturaTriangulo);
 console.log("El área del triángulo es:", areaTriangulo);
 
 function perimetro(lado1, lado2, lado3) {
-    var resultado = lado1 + lado2 + lado3;
+    const resultado = lado1 + lado2 + lado3;
     return resultado;
 }
 const ladoA = 5;
